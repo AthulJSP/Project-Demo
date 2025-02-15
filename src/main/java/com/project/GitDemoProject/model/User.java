@@ -4,6 +4,7 @@ public class User {
     private  int userId;
     private String userName;
     private String userEmail;
+    private String password;
 
     public String getUserEmail() {
         return userEmail;
@@ -13,7 +14,7 @@ public class User {
         this.userEmail = userEmail;
     }
 
-    private String password;
+
 
     public int getUserId() {
         return userId;
