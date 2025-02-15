@@ -3,6 +3,16 @@ package com.project.GitDemoProject.model;
 public class User {
     private  int userId;
     private String userName;
+    private String userEmail;
+
+    public String getUserEmail() {
+        return userEmail;
+    }
+
+    public void setUserEmail(String userEmail) {
+        this.userEmail = userEmail;
+    }
+
     private String password;
 
     public int getUserId() {
